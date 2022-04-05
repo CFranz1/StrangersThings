@@ -1,0 +1,83 @@
+
+#Header-Container{
+    background-color: rgb(112, 128, 144);
+    color: #ffa62b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Logo{
+    padding-left: 25px;
+}
+#Header-Container a{
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 20pt;
+}
+#Display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#Posts-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Single-Post{
+    background-color: rgba(119, 136, 153, 0.281);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    width: 60%;
+}
+/* for login page */
+#Login-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#AddNewPost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > * {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newPost{
+    width: 250px;
+}
+
+#Description{
+    height: 150px;
+}
+
+#HomePage-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Single-Message{
+    background-color: rgba(119, 136, 153, 0.281);
+    border: 2px solid black;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Search-Container{
+    margin: 10px;
+}
